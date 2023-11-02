@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.container {
+    height: 650px;
+    width: 350px;
+    border: 2px groove black;
+    box-shadow: 10px 10px 10px 10px;
+    background-image: url("./img/background-military.jpg");
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.affichage {
+    height: 50px;
+    width: 300px;
+    border: 2px inset black;
+    border-radius: 20px;
+    background-color: #798a5c;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px;
+}
+
+.divNum {
+    height: 350px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    border: 2px inset black;
+    border-radius: 20px;
+    background-color: 	#798a5c;
+    justify-items: center;
+    align-items: center;
+}
+
+.toucheNum {
+    height: 50px;
+    width: 50px;
+    border: 2px outset black;
+    border-radius: 10px;
+    background-color: #5a5c58;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divOps {
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border: 2px inset black;
+    border-radius: 20px;
+    background-color: 	#798a5c;
+    justify-items: center;
+    align-items: center;
+}
+
+.toucheOps {
+    height: 50px;
+    width: 50px;
+    border: 2px outset black;
+    border-radius: 10px;
+    background-color: #5a5c58;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toucheNum:hover {
+    cursor: pointer;
+}
+
+.toucheOps:hover {
+    cursor: pointer;
+}
