@@ -166,7 +166,7 @@ divEqual.addEventListener("click", () => {
 
     if (tableauNumber[1] === "+") {
 
-        resultat = addition(tableauNumber[0], tableauNumber[2]);
+        let resultat = addition(tableauNumber[0], tableauNumber[2]);
         tableauNumber = [];
         number = "";
         tableauNumber.unshift(resultat);
@@ -175,7 +175,7 @@ divEqual.addEventListener("click", () => {
 
     else if (tableauNumber[1] === "-") {
 
-        resultat = soustraction(tableauNumber[0], tableauNumber[2]);
+        let resultat = soustraction(tableauNumber[0], tableauNumber[2]);
         tableauNumber = [];
         number = "";
         tableauNumber.unshift(resultat);
@@ -184,7 +184,7 @@ divEqual.addEventListener("click", () => {
 
     else if (tableauNumber[1] === "*") {
 
-        resultat = multiplication(tableauNumber[0], tableauNumber[2]);
+        let resultat = multiplication(tableauNumber[0], tableauNumber[2]);
         tableauNumber = [];
         number = "";
         tableauNumber.unshift(resultat);
@@ -193,7 +193,7 @@ divEqual.addEventListener("click", () => {
 
     else if (tableauNumber[1] === "/") {
 
-        resultat = division(tableauNumber[0], tableauNumber[2]);
+        let resultat = division(tableauNumber[0], tableauNumber[2]);
         tableauNumber = [];
         number = "";
         tableauNumber.unshift(resultat);
