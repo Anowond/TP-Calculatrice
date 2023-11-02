@@ -106,8 +106,8 @@ paveNumerique.forEach(element => {
 
         /* Récupération du chiffre choisi et l'affiche dans la div affichage */
 
-        affichage.textContent += e.originalTarget.id;
-        number += e.originalTarget.id;
+        affichage.textContent += e.target.id;
+        number += e.target.id;
 
     })
 
@@ -130,7 +130,7 @@ paveOpérations.forEach(element => {
 
         /* Récupération du caractére choisi */
 
-        operation = e.originalTarget.id;
+        operation = e.target.id;
 
         /* Ajout au tableau "tableauNumber" des variables "number" et "operation" (dans cet ordre !), puis, remise a zéro des variables */
 
@@ -161,8 +161,6 @@ divEqual.addEventListener("click", () => {
     /* Ajout de la condition de calcul, on contrôle l'opérateur par la chaine de caractére définie à l'index tableauNumber[1] et on appelle 
     la fonction de calcul correspondant avec comme paramétre tableauNumber[0] (le premier chiffre)
     et tableauNumber[2] (le 2e chiffre), ensuite, on purge le tableau, on reset la valeur de number, et on y ajoute le résultat pour un éventuel prochain calcul */
-
-    console.log(tableauNumber)
 
     if (tableauNumber[1] === "+") {
 
