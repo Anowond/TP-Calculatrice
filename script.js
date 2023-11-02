@@ -170,6 +170,7 @@ divEqual.addEventListener("click", () => {
         tableauNumber = [];
         number = "";
         tableauNumber.unshift(resultat);
+        affichage.textContent = resultat
 
     }
 
@@ -179,6 +180,7 @@ divEqual.addEventListener("click", () => {
         tableauNumber = [];
         number = "";
         tableauNumber.unshift(resultat);
+        affichage.textContent = resultat
 
     }
 
@@ -188,6 +190,7 @@ divEqual.addEventListener("click", () => {
         tableauNumber = [];
         number = "";
         tableauNumber.unshift(resultat);
+        affichage.textContent = resultat
 
     }
 
@@ -197,6 +200,7 @@ divEqual.addEventListener("click", () => {
         tableauNumber = [];
         number = "";
         tableauNumber.unshift(resultat);
+        affichage.textContent = resultat
 
     } else {
 
@@ -204,10 +208,6 @@ divEqual.addEventListener("click", () => {
 
     }
     console.log(tableauNumber)
-
-    /* Affichage du résultat dans la div d'affichage */
-
-    affichage.textContent = resultat
 
 })
 
